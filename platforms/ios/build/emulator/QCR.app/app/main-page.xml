@@ -1,0 +1,24 @@
+<!--
+The markup in NativeScript apps contains a series of user interface components, each
+of which NativeScript renders with a platform-specific iOS or Android native control.
+You can find a full list of user interface components you can use in your app at
+https://docs.nativescript.org/ui/components.
+-->
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+    <!--
+    The ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.
+    http://docs.nativescript.org/ui/action-bar
+    -->
+    <Page.actionBar>
+        <ActionBar title="Queen City Recovers" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout verticalAlignment="center">
+        <Label text="ATTENTION" class="h1 text-center" fontSize= "40"/>
+        <Image src="~/warnImage.png" width="200" height="200"/>
+        <Label text="This App Does Not" class="h1 text-center" fontSize="30"/>
+        <Label text="Provide Emergency Services" class = "h1 text-center" fontSize="30"/>
+        <Button text="Got It!" tap="notEmergency" class="btn btn-primary btn-active" />
+    </StackLayout>
+</Page>

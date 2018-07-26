@@ -1,0 +1,28 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+
+    <Page.actionBar>
+
+        <ActionBar title="Locations" icon="" class="action-bar">
+            <NavigationButton visibility="collapsed"/>
+        </ActionBar>
+    </Page.actionBar>
+
+    <GridLayout class="list-group-item">  
+        <ListView items="{{ locations }}">
+            <ListView.itemTemplate>
+
+                <GridLayout rows="*, *, *" columns="*, *" class="list-group-item-content">
+
+                    <Image src="{{image_url}}" stretch="aspectFill" height="150" class="m-b-15"></Image>
+
+                    <Label col = "0" row="1" text="{{name}}" textWrap="true" class="p-b-10" />
+                    <Label col = "1" row="1" text="{{address}}" textWrap="true" class="p-b-10"/>
+
+                    <Button col = "0" row = "2" text="Website" tap ="websiteTap" info2="{{website}}" />
+                    <Button col = "1" row="2" text="Let's Go!" tap="onItemTap" info="{{address}}"/>
+
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </GridLayout>
+</Page>

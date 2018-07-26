@@ -1,0 +1,26 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+
+    <Page.actionBar>
+
+        <ActionBar title="Locations" icon="" class="action-bar">
+            <NavigationButton visibility="collapsed"/>
+        </ActionBar>
+    </Page.actionBar>
+
+    <GridLayout class="list-group-item">>   
+        <ListView items="{{ locations }}" itemTap="onItemTap({{address}})">
+            <ListView.itemTemplate>
+                <GridLayout rows="*, *, *" columns="*, *" class="list-group-item-content">
+                    <Label col = "0" row="0" text="Center:" class="p-b-10"/>
+                    <Label col = "0" row="1" text="Address:" class="p-b-10"/>
+                    <Label col = "0" row="2" text="Distance:" class="p-b-10"/>
+                
+                    <Label col = "1" row="0" text="{{name}}" class="p-b-10"/>
+                    <Label col = "1" row="1" text="{{address}}" textWrap="true" class="p-b-10"/>
+                    <Label col = "1" row="2" text="{{distance}}" class="p-b-10"/>
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </GridLayout>
+
+</Page>

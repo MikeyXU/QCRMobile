@@ -1,5 +1,5 @@
 {
-	"time": "Thu Jul 26 2018 14:00:46 GMT-0400 (EDT)",
+	"time": "Thu Jul 26 2018 15:04:48 GMT-0400 (EDT)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
@@ -9,7 +9,7 @@
 	"appFilesHashes": {
 		"/Users/michaellanter1996/Desktop/QCR/app/.DS_Store": "4d07ca01b53d5dc7d9a4eb65f312d460adff2088",
 		"/Users/michaellanter1996/Desktop/QCR/app/app-root.xml": "900a386cb2d8abc9573413eb3aff45448dcd3608",
-		"/Users/michaellanter1996/Desktop/QCR/app/app.css": "57878ec1f7bb8347c09199d82b161641bf7d1aae",
+		"/Users/michaellanter1996/Desktop/QCR/app/app.css": "ebb2c363f6a7a67a42e9fdad0960892b9a7ed114",
 		"/Users/michaellanter1996/Desktop/QCR/app/app.js": "ffc3603ba497e733dbb28ec3badadaa8df923f22",
 		"/Users/michaellanter1996/Desktop/QCR/app/bundle-config.js": "d17c2570811747318a75d48cef336b3c2945cf07",
 		"/Users/michaellanter1996/Desktop/QCR/app/main-page.js": "03dfde162f2a82533d57dcfe24b113ae05e173e1",
@@ -18,7 +18,7 @@
 		"/Users/michaellanter1996/Desktop/QCR/app/package.json": "76d2f371ccaf38f64ed764513b2b13292c218382",
 		"/Users/michaellanter1996/Desktop/QCR/app/references.d.ts": "c83a3304d98c2586359871f5d8ac10c8aa8af848",
 		"/Users/michaellanter1996/Desktop/QCR/app/stuffGoesHere.js": "532e21fa855522351af7d401244d55816ea6dd22",
-		"/Users/michaellanter1996/Desktop/QCR/app/stuffGoesHere.xml": "ee8aa09718ead8e1a01173974cbc6df8893829b0",
+		"/Users/michaellanter1996/Desktop/QCR/app/stuffGoesHere.xml": "574d173e98ce1b4c7d33b6808fe03f7959784abf",
 		"/Users/michaellanter1996/Desktop/QCR/app/warnImage.png": "0c624a7ed6ff730a59424f5295f7956f9fccd4dd"
 	}
 }

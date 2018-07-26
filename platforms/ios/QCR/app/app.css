@@ -26,10 +26,3 @@ Label {
     padding: 10;
     font-size: 15;
 }
-
-Image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
